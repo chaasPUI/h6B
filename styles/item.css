@@ -1,0 +1,181 @@
+.main{
+    margin: 30px 0;
+}
+
+/* ITEM */
+
+.item-images{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+}
+
+.item-images img{
+    width: auto;
+    height: 100%;
+}
+
+.item-content{
+    vertical-align: top;
+    display: inline-block;
+    width: 59%;
+}
+#item-title{
+    font-size: 4rem;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#price{
+    font-size: 3.1rem;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.item-content form{
+    margin: 30px 0;
+}
+
+.options{
+    display: inline-block;
+    width: 50%;
+}
+
+.options label{
+    font-size: 1.3rem;
+    line-height: 5%;
+    width: 50px;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.options select{
+    height:2.2rem;
+    vertical-align: middle;
+}
+
+.add-to-cart {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+
+
+.cart-button{
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    margin: 5px 0;
+    
+}
+
+.cart-button input{
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: 0;
+    width: 20%;
+    height: 40px;
+    border: black 1px solid;
+    border-right: none;
+    font-size: 17px;
+    float: left;
+    background: #fff;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+  
+  /* Style the submit button */
+  .cart-button button {
+    box-sizing: border-box;
+    float: left;
+    width: 80%;
+    height: 40px;
+    background: #72543F;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    font-family: Ansen, sans-serif;
+    color: #fffcfa;
+    font-size: 1.5rem;
+  }
+  
+  .cart-button button:hover {
+   opacity: 0.8;
+  }
+
+
+.description{
+    margin: 30px 5%;
+}
+
+.description h3{
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+/* ADVENTURERS */
+
+.adventurers{
+    margin:30px 5%
+    
+}
+
+.pet-row{
+    text-align: center;
+    width: 100%;
+}
+
+.adventure-pet {
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    margin: 4%;
+    
+}
+
+
+.adventure-pet img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.adventure-pet h1{
+    margin: 10px;
+    font-weight: lighter;
+}
+
+/* RELATED */
+
+.related{
+    margin: 30px 5% ;
+    height: 400px;
+}
+
+h1.section-title{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.shop-row {
+    /* Can center align if desired */
+}
+
+.shop-item{
+    
+    width: 25%;
+    margin: 4%;
+    text-align: center;
+    display: inline-block;
+}
+
+.shop-item img{
+    width: auto;
+    height: 125px;
+}

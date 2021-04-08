@@ -1,0 +1,42 @@
+.main{
+    margin: 30px 5%;
+    width: 100%;
+}
+
+/* SIDEBAR  */
+
+.sidebar{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20%;
+}
+
+h1.shop-title{
+    font-size: 5rem;
+    margin: 0;
+}
+
+label h2{
+    font-size: 2rem;
+}
+
+
+/* SHOP  */
+
+.shop-content {
+    box-sizing: border-box;
+    
+    display: inline-block;
+    width: 79%;
+}
+
+.shop-item{
+    width: 25%;
+    margin: 2%;
+    text-align: center;
+    display: inline-block;
+}
+
+.shop-item img{
+    width: 100%;
+}

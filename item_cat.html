@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Muddy Paws | Cat Harness</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/item.css">
+        <script src="js/cart.js" type="text/javascript"></script>
+        
+    </head>
+    <body>
+        <header>
+            <div class="d-inline brand">
+                <a href="home_cat.html">
+                    <img src="imgs/paw.png" alt="paw logo" class="logo d-inline">
+                    <h5 class="d-inline"> muddy paws adventure gear</h5>
+                </a>
+
+            </div>
+            <div class="d-inline">
+                <form action="" class="search">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><img src="imgs/search.png" alt="search magnifying glass" class="m-auto"></button>
+                </form>
+            </div>
+            <div class="d-inline header-buttons">
+                <a class="button d-inline" href="/">CHANGE PET</a>
+                <a class="cart" href="cart.html" >
+                    <img src="imgs/cart.png" alt="shopping cart">
+                    <span id="cart-quantity"></span>
+                </a>           
+            </div>
+
+            <div class="nav-links"> 
+                <ul>
+                    <li><a href="shop_cat.html">SHOP</a></li>
+                    <li><a href="home_cat.html">ABOUT US</a></li>
+                    <li><a href="home_cat.html">ADVENTURERS</a></li>
+                </ul>
+            </div>
+
+        </header>
+
+
+
+        <div class="main">
+            <div class="item">
+
+                <div class="item-details">
+                    <div class="item-images">
+                        <img src="imgs/harness.webp" alt="Cat Harness">
+                    </div>
+                    <div class="item-content">
+                        <h1 id="item-title">Cat Harness</h1>
+                        <h2 id="price">
+                            $50.00
+                        </h2>
+                        <form action="">
+                        <div class="options">
+                            <label for="size"><h2>Size:</h2></label>
+                            <select id="size">
+                                <option value="tiny">Tiny</option>
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                            <br>
+                            <label for="color"><h2>Color:</h2></label>
+                            <select id="color">
+                                <option value="straw">Strawberry</option>
+                                <option value="black">Blackberry</option>
+                                <option value="crazy">Crazyberry</option>
+                                <option value="fire">Fire Orange</option>
+                            </select>
+                        </div>
+                        <div class="add-to-cart">
+                            <div class="cart-button">
+                                <input id="quantity-input" type="number" value="1" min="1" max="100">
+                                <button id="add-to-cart" type="submit" onclick="addToCart()">Add To Cart</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                    
+                </div>
+                <div class="description">
+                    <h3>DESCRIPTION</h3>
+                    <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO 
+                        EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. 
+                        ALIQUAM FAUCIBUS PURUS IN MASSA TEMPOR NEC FEUGIAT NISL PRETIUM. 
+                        VIVERRA IPSUM NUNC ALIQUET BIBENDUM ENIM FACILISIS. NON PULVINAR 
+                        NEQUE LAOREET SUSPENDISSE INTERDUM CONSECTETUR.
+                    </p>
+                    
+                </div>
+
+            </div>
+            
+
+            <div class="adventurers">
+                <h1 class="section-title">Adventurers with this gear</h1>
+                <div class="pet-row">
+                    <div class="adventure-pet">
+                        <img src="imgs/spoon.jpg" alt="Spoon the cat">
+                        <h1>SPOON</h1>
+                    </div>
+                    <div class="adventure-pet">
+                        <img src="imgs/spoon.jpg" alt="Spoon the cat">
+                        <h1>SPOON</h1>
+                    </div>
+                    <div class="adventure-pet">
+                        <img src="imgs/spoon.jpg" alt="Spoon the cat">
+                        <h1>SPOON</h1>
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+            <div class="related">
+
+                <h1 class="section-title">RELATED PRODUCTS</h1>
+                <div class="shop-row">
+
+                    <div class="shop-item">
+                        <a href="item_cat.html">
+                            <img src="imgs/leash.png" alt="Cat Leash">
+                            <h2>Cat Leash</h2>
+                            <p>$25.00</p>
+                        </a>
+                        
+                        <a href="item_cat.html" class="button">View Details</a>
+
+                    </div>
+
+                    <div class="shop-item">
+                        <a href="item_cat.html">
+                            <img src="imgs/harness.webp" alt="Cat Harness">
+                            <h2> Fancy Cat Harness</h2>
+                            <p>$50.00</p>
+                        </a>
+
+                        <a href="item_cat.html" class="button">View Details</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <footer>
+            <div class="col">
+                <div class="socials">
+                    <a href=""><img src="imgs/socials/ig.png" alt="instagram logo"></a>
+                    <a href=""><img src="imgs/socials/yt.png" alt="youtube logo"></a>
+                </div>
+                <div class="middle"><h4>EXPLORE TOGETHER</h4></div>
+                <div class="socials">
+                    <a href=""><img src="imgs/socials/fb.png" alt="facebook logo"></a>
+                    <a href=""><img src="imgs/socials/tw.png" alt="twitter logo"></a>
+                </div>
+                
+
+            </div>
+            <div class="col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="home_cat.html">HOME</a></li>
+                    <li><a href="home_cat.html">ABOUT US</a></li>
+                    <li><a href="home_cat.html">FAQ</a></li>
+                    <li><a href="home_cat.html">TERMS OF SERVICE</a></li>
+                    <li><a href="home_cat.html">PRIVACY POLICY</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Contact Us</h4>
+                <h5>muddy paws adventure gear</h5>
+                <div>
+                    <p>4454 ASHCRAFT COURT</p>
+                    <p>SAN DIEGO, CALIFORNIA 92101</p>
+                    <p>PHONE: 619-555-5555</p>
+                    <p>EMAIL: CONTACT@MUDDYPAWS.COM</p>
+                </div>
+                <div><img src="imgs/paw.png" alt="paw logo" class="logo"></div>
+            </div>
+        </footer>
+        
+        
+    </body>
+</html>

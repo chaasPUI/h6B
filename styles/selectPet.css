@@ -1,0 +1,68 @@
+
+
+html {
+    background-color: #353535;
+}
+
+body {
+    background-color: #353535;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    margin: 5% auto;
+    font-family: Ansen;
+    font-weight: bold;
+    font-size: 6rem;
+    color: #FFFCFA;
+    text-shadow: 2px 2px  #000000;
+}
+
+.pet-select:hover {
+    opacity: 0.7;
+  
+    
+}
+
+.col{ 
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: auto 3.7vw;
+    font-family: Ansen;
+    font-weight: bold;
+    font-size: 6rem;
+    color: #FFFCFA;
+    width: 25vw;
+    height: 25vw;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000000;
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pet-type{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.col-1{
+    background-image: url("../imgs/cat.jpg");
+}
+
+.col-2{
+    background-image: url("../imgs/dog.jpg");
+}
+
+.col-3{
+    background-image: url("../imgs/catDog.jpg");
+}
