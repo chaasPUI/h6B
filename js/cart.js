@@ -62,6 +62,7 @@ function addToCart(){
 
 }
 
+//Creates the Product Structure
 function createProduct(name, price, size, color, imgURL, qty){
     var product = {
 
@@ -78,6 +79,7 @@ function createProduct(name, price, size, color, imgURL, qty){
     return product;
 }
 
+//Adds a product to the sessionStorage and updates totalQty & Price
 function addToSession( SKU, product){
     
     // Check if Cart is initialized
@@ -100,7 +102,10 @@ function addToSession( SKU, product){
         }
     
     } else{
+        
+        //Initialize cart
         var products = {};
+
         products[SKU] = product;
 
         sessionStorage.setItem('products', JSON.stringify(products) );
